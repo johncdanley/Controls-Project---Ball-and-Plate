@@ -66,19 +66,19 @@ test
 To mathematically develop the proper equations to relate the necessary angle of lift on the balance plate (α) to the distance the ball has strayed away from the balance plate’s target location (x). Using the free body diagram below (Figure 1), forces from the ball’s inertia (Fr) and due to gravity on the ball (Fg) can be mapped out to determine the proper functions. 
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82175334-886c6200-9888-11ea-8444-ffbccba078fc.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82175334-886c6200-9888-11ea-8444-ffbccba078fc.png" height = "200px" style="margin:10px 10px">
 </p>
 
 The sum of forces can be written:
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176611-1b5acb80-988c-11ea-8478-a5c56a67b5a1.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176611-1b5acb80-988c-11ea-8478-a5c56a67b5a1.png" height = "200px" style="margin:10px 10px">
 </p>
 
 Relating the angle of tilt of the plate (α) to the force on the ball by gravity (Fg) gives the following equation: 
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176622-2150ac80-988c-11ea-9fc1-96699cde30c8.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176622-2150ac80-988c-11ea-9fc1-96699cde30c8.png" height = "100px" style="margin:10px 10px">
 </p>
 
 Using torque, an equation can be formed relating force of intertia to ball radius (rb) with the proper torque equaton of the rolling ball:
