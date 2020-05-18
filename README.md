@@ -64,7 +64,7 @@ Relating the angle of tilt of the plate (α) to the force on the ball by gravity
 </p>
 Using torque, an equation can be formed relating force of intertia to ball radius (rb) with the proper torque equaton of the rolling ball:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "200px" style="margin:10px 10px">
 </p>
 The equation for the hollow ball inertia is given below: 
 <p align = "center">
