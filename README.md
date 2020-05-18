@@ -48,6 +48,7 @@ Vision system needs calibration:
 * test
 
 -
+
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
@@ -61,17 +62,17 @@ test:
 test
 
 ### 4.1. Subheading Test
-test: **test**.
+test of first subheading: **test**.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
+  <img src = "insert img link here" height = "360px" style="margin:10px 10px">
 </p>
 
 ### 4.2. Subheading Test 2
-test: **test**.
+test of second subheading: **test**.
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
+  <img src = "insert img link here" height = "360px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
@@ -82,26 +83,6 @@ Deliverables:
 * Mathematical model of the system using MATLAB/Simulink
 * show that the algorithm facilitates the design requirements
 * Test algorithms on the physical system
-
-
-### 5.1. test2
-test: **test**.
-
-This is an example of how to do subheadings
-
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
-</p>
-
-### 5.2. test3
-test: **test**.
-
-This is an example of how to do multiple subheadings
-
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
-</p>
-
 
 -----------------------------------------------------------------------------------------
 ## 6. References
