@@ -1,5 +1,6 @@
-# Ball and Plate Balancing
-#### Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
+# Control System Design of Ball and Plate
+#### MECA482 - Control System Design
+Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
  **Description of the project:**
