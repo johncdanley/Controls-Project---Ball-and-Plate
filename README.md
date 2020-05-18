@@ -5,7 +5,7 @@
 ## 1. Introduction
  **Description of the project:**
 
-Ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal of this project is to develop a solution to control the ball's position on the plate. 
+The ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal is to develop the Simulink model that controls the X and Y axis of the plate system in Coppelia Sim Edu.
 
 test
 
@@ -25,8 +25,9 @@ test
   
 -----------------------------------------------------------------------------------------
 ## 2. Modelling
-**CoppeliaSim** [test](http://google.com).
+The system is simulated in Coppelia Sim Edu utilizing a plate that is supported by two revolute joints on the individual sides that control the tilting mechanism for the balance of the ball. The control system described is to hold a freely rolling ball in a specific position on the plate using a senor for a feedback loop to maintain the position of the ball. For measuring the ball position, a camera sensor was used to provide feedback information.
 
+### 2.1 
 test:
 * **test**: test
 * **test**: test
@@ -44,7 +45,7 @@ The data is processed in the following way:
 -----------------------------------------------------------------------------------------
 ## 3. Sensor Calibration
 Vision system needs calibration:
-* test
+* I don't know if this is needed because there is no physical system
 * test
 
 -
