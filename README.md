@@ -1,6 +1,6 @@
 # Control System Design of Ball and Plate
 #### MECA482 - Control System Design
-Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
+### Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
  **Description of the project:**
@@ -35,9 +35,9 @@ test:
 * **test**: test
 
 The data is processed in the following way:
-* test
-* test
-* test
+* The camera observes the position of the ball in CoppeliaSim and sends the data to Matlab
+* Matlab recieves data from Coppelia
+* Simulink retrieves the data from the Matlab workspace and calculates the rotation of the motors, 
 * test
 * test
 
