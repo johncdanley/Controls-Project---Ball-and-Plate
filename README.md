@@ -14,7 +14,7 @@ test
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modelling)
 - [3. Basic Algorithm](#3-Basic-Algorithm)
-- [4. Controller Design and Simulations](#4-Controller Design and Simulations)
+- [4. Controller Design and Simulations](#4-Controller-Design-and-Simulations)
   - [4.1. test](#41-test)
   - [4.2. test](#42-test)
 - [5. Checklist](#5-Checklist)
@@ -79,9 +79,9 @@ test:
 * test
 
 ### 5.1. EKF SLAM with Known Correspondence
-Probabilistic Robotics Page 314: **Algorithm EKF_SLAM_known_correspondences**.
+test: **test**.
 
-The overall process is not very smooth because of inaccurate odometry data and a lack of information in measurement (each measurement only observes single landmark). But with known correspondences, the algorithm can still converge.
+test
 
 <p align = "center">
   <img src = "doc/EKF_SLAM_known_correspondences.gif" height = "360px" style="margin:10px 10px">
