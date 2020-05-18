@@ -14,9 +14,9 @@ test
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modelling)
-- [3. Controller Design and Simulations](#4-Controller-Design-and-Simulations)
-  - [3.1. Force Calculations](#41-Force Calculations)
-  - [3.2. test](#42-test)
+- [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)
+  - [3.1. Force Calculations](#31-Force Calculations)
+  - [3.2. Sensor Calibration](#42-Sensor_Calibration)
 - [4. Checklist](#5-Checklist)
   - [4.1. test2](#51-test2)
   - [4.2. test3](#52-test3)
