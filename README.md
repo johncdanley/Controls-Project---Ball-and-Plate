@@ -5,7 +5,7 @@ Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
 ## 1. Introduction
  **Description of the project:**
 
-Ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal of this project is to develop a solution to control the ball's position on theplate. 
+Ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal of this project is to develop a solution to control the ball's position on the plate. 
 
 test
 
@@ -32,7 +32,7 @@ test:
 * **test**: test
 * **test**: test
 * **test**: test
-* **test**: Atest
+* **test**: test
 
 The data is processed in the following way:
 * test
