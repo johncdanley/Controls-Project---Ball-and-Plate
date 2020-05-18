@@ -76,7 +76,11 @@ By plugging the ball's inertia into inertial force (Fr) equation, the new equati
 </p>
 Fr and Fg can be used to construct the new force equation for ball displacement vs lift angle of plate.
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82177742-4b579e00-988f-11ea-8c1e-23167009eadd.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82179844-20237d80-9894-11ea-9b4a-b4c48017d1fc.png" height = "50px" style="margin:10px 10px">
+</p>
+The angle displacements of the plate and motor can be written through trigonometric:
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82179883-38939800-9894-11ea-9651-b8c4025f54bc.png" height = "200px" style="margin:10px 10px">
 </p>
 
 ### 3.2. Sensor Caibration
