@@ -16,9 +16,9 @@ test
 - [2. Modeling](#2-Modeling)
 - [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)
   - [3.1. Force Calculations](#31-Force_Calculations)
-  - [3.2. Sensor Calibration](#42-Sensor_Calibration)
-- [4. Checklist](#5-Checklist)
-- [5. References](#6-References)
+  - [3.2.Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change-Transfer_Function)
+- [4. Checklist](#4-Checklist)
+- [5. References](#5-References)
   
 -----------------------------------------------------------------------------------------
 ## 2. Modeling
@@ -67,18 +67,34 @@ Fr and Fg can be used to construct the new force equation for ball displacement 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82179844-20237d80-9894-11ea-9b4a-b4c48017d1fc.png" height = "50px" style="margin:10px 10px">
 </p>
-The angle displacements of the plate and motor can be written through trigonometric:
+The angle displacements of the plate and motor can be written through trigonometric relationships:
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82179883-38939800-9894-11ea-9651-b8c4025f54bc.png" height = "100px" style="margin:10px 10px">
 </p>
 With small angle approximation and laplace transform, the transfer function is given below:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82179896-40ebd300-9894-11ea-869e-16d0343f55b0.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269652-29a9f580-9927-11ea-8369-a91bb23e6c33.png" height = "50px" style="margin:10px 10px">
 </p>
 
-### 3.2. Sensor Caibration
-Code used to capture data from simulation to be sent to MATLAB is given below:
-`*CodeCam=sim.getObjectHandle("Vision_sensor")*`
+### 3.2 Input Voltage to Position Change Transfer Function
+The block diagram below illustrates the in put of Vm(s) through the servo plant (SRVO2),outputting the servo angle (θ(s)), which in ressponse, adjusts the position of the ball (X(S)) after going through the plant of the balance plate (Pbb(S)):
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82267107-527abc80-9920-11ea-8eb3-ae398d9639c0.png" height = "50px" style="margin:10px 10px">
+</p>
+Using a SRV02, after motor analysis accounting for the motor specifications, the motor's transfer function is given below:
+<p align = "center">
+  <img src = "img" height = "50px" style="margin:10px 10px">
+</p>
+
+<p align = "center">
+  <img src = "img" height = "50px" style="margin:10px 10px">
+</p>
+
+
+### 3.2. Coded Simulation
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "50px" style="margin:10px 10px">
+</p>
 
 -----------------------------------------------------------------------------------------
 ## 4. Checklist
@@ -86,7 +102,7 @@ Deliverables:
 * Project Presentation
 * Webpage
 * Mathematical model of the system using MATLAB/Simulink
-* show that the algorithm facilitates the design requirements
+* Show that the algorithm facilitates the design requirements
 * Test algorithms on the physical system
 
 -----------------------------------------------------------------------------------------
