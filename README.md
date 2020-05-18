@@ -18,8 +18,6 @@ test
   - [3.1. Force Calculations](#31-Force_Calculations)
   - [3.2. Sensor Calibration](#42-Sensor_Calibration)
 - [4. Checklist](#5-Checklist)
-  - [4.1. test2](#51-test2)
-  - [4.2. test3](#52-test3)
 - [5. References](#6-References)
   
 -----------------------------------------------------------------------------------------
