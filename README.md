@@ -24,20 +24,11 @@ test
 ## 2. Modeling
 The system is simulated in Coppelia Sim Edu utilizing a plate that is supported by two revolute joints on the individual sides that control the tilting mechanism for the balance of the ball. The control system described is to hold a freely rolling ball in a specific position on the plate using a senor for a feedback loop to maintain the position of the ball. For measuring the ball position, a camera sensor was used to provide feedback information.
 
-### 2.1 
-test:
-* **test**: test
-* **test**: test
-* **test**: test
-* **test**: test
-* **test**: test
-
 The data is processed in the following way:
 * The camera observes the position of the ball in CoppeliaSim and sends the data to Matlab
 * Matlab recieves data from Coppelia
 * Simulink retrieves the data from the Matlab workspace and calculates the rotation of the motors, 
-* test
-* test
+
 
 -----------------------------------------------------------------------------------------
 ## 3. Controller Design and Simulations
