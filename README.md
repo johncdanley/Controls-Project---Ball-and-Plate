@@ -78,13 +78,13 @@ The sum of forces can be written:
 Relating the angle of tilt of the plate (α) to the force on the ball by gravity (Fg) gives the following equation: 
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176622-2150ac80-988c-11ea-9fc1-96699cde30c8.png" height = "100px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176622-2150ac80-988c-11ea-9fc1-96699cde30c8.png" height = "50px" style="margin:10px 10px">
 </p>
 
 Using torque, an equation can be formed relating force of intertia to ball radius (rb) with the proper torque equaton of the rolling ball:
 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "200px" style="margin:10px 10px">
 </p>
 
 Fr and Fg can be used to construct the new force equation for ball displacement vs lift angle of plate.
