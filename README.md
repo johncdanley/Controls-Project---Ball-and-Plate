@@ -77,19 +77,19 @@ Relating the angle of tilt of the plate (α) to the force on the ball by gravity
 </p>
 Using torque, an equation can be formed relating force of intertia to ball radius (rb) with the proper torque equaton of the rolling ball:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "200px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "50px" style="margin:10px 10px">
 </p>
 The equation for the hollow ball inertia is given below: 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82177723-3e3aaf00-988f-11ea-9f3a-0af57457e515.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177723-3e3aaf00-988f-11ea-9f3a-0af57457e515.png" height = "50px" style="margin:10px 10px">
 </p>-
 By plugging the ball's inertia into inertial force (Fr) equation, the new equation is shown below:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82177735-45fa5380-988f-11ea-8ed7-a186885a379d.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177735-45fa5380-988f-11ea-8ed7-a186885a379d.png" height = "50px" style="margin:10px 10px">
 </p>
 Fr and Fg can be used to construct the new force equation for ball displacement vs lift angle of plate.
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82177742-4b579e00-988f-11ea-8c1e-23167009eadd.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177742-4b579e00-988f-11ea-8c1e-23167009eadd.png" height = "50px" style="margin:10px 10px">
 </p>
 
 ### 4.2. Subheading Test 2
