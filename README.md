@@ -64,30 +64,33 @@ test
 
 ### 4.1. Force Calculations
 To mathematically develop the proper equations to relate the necessary angle of lift on the balance plate (α) to the distance the ball has strayed away from the balance plate’s target location (x). Using the free body diagram below (Figure 1), forces from the ball’s inertia (Fr) and due to gravity on the ball (Fg) can be mapped out to determine the proper functions. 
-
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82175334-886c6200-9888-11ea-8444-ffbccba078fc.png" height = "200px" style="margin:10px 10px">
 </p>
-
 The sum of forces can be written:
-
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82176611-1b5acb80-988c-11ea-8478-a5c56a67b5a1.png" height = "200px" style="margin:10px 10px">
 </p>
-
 Relating the angle of tilt of the plate (α) to the force on the ball by gravity (Fg) gives the following equation: 
-
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82176622-2150ac80-988c-11ea-9fc1-96699cde30c8.png" height = "50px" style="margin:10px 10px">
 </p>
-
 Using torque, an equation can be formed relating force of intertia to ball radius (rb) with the proper torque equaton of the rolling ball:
-
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82176629-2877ba80-988c-11ea-805e-8a4c82cd2360.png" height = "200px" style="margin:10px 10px">
 </p>
-
+The equation for the hollow ball inertia is given below: 
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177723-3e3aaf00-988f-11ea-9f3a-0af57457e515.png" height = "360px" style="margin:10px 10px">
+</p>-
+By plugging the ball's inertia into inertial force (Fr) equation, the new equation is shown below:
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177735-45fa5380-988f-11ea-8ed7-a186885a379d.png" height = "360px" style="margin:10px 10px">
+</p>
 Fr and Fg can be used to construct the new force equation for ball displacement vs lift angle of plate.
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82177742-4b579e00-988f-11ea-8c1e-23167009eadd.png" height = "360px" style="margin:10px 10px">
+</p>
 
 ### 4.2. Subheading Test 2
 test of second subheading: **test**.
