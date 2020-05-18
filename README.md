@@ -13,7 +13,7 @@ test
 
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
-- [2. Modeling](#2-Modelling)
+- [2. Modeling](#2-Modeling)
 - [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)
   - [3.1. Force Calculations](#31-Force_Calculations)
   - [3.2. Sensor Calibration](#42-Sensor_Calibration)
@@ -23,7 +23,7 @@ test
 - [5. References](#6-References)
   
 -----------------------------------------------------------------------------------------
-## 2. Modelling
+## 2. Modeling
 The system is simulated in Coppelia Sim Edu utilizing a plate that is supported by two revolute joints on the individual sides that control the tilting mechanism for the balance of the ball. The control system described is to hold a freely rolling ball in a specific position on the plate using a senor for a feedback loop to maintain the position of the ball. For measuring the ball position, a camera sensor was used to provide feedback information.
 
 ### 2.1 
