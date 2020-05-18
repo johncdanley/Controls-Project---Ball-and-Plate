@@ -46,7 +46,7 @@ Vision system needs calibration:
 
 -
 <p align = "center">
-  <img src = "doc/Odometry.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
@@ -61,14 +61,14 @@ test
 test: **test**.
 
 <p align = "center">
-  <img src = "doc/EKF_Localization_known_correspondences.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
 ### 4.2. Subheading Test 2
 test: **test**.
 
 <p align = "center">
-  <img src = "doc/PF_Localization_known_correspondences.gif" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
@@ -84,7 +84,7 @@ test: **test**.
 test
 
 <p align = "center">
-  <img src = "doc/EKF_SLAM_known_correspondences.gif" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
 ### 5.2. test3
@@ -93,7 +93,7 @@ test: **test**.
 test
 
 <p align = "center">
-  <img src = "doc/EKF_SLAM_unknown_correspondences.gif" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
@@ -101,7 +101,7 @@ test
 test
 
 <p align = "center">
-  <img src = "doc/Graph_SLAM_known_correspondences.png" height = "600px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "600px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
