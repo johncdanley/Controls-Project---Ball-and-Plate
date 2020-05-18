@@ -18,8 +18,8 @@ test
   - [4.1. test](#41-test)
   - [4.2. test](#42-test)
 - [5. Checklist](#5-Checklist)
-  - [5.1. EKF SLAM with Known Correspondence](#51-EKF-SLAM-with-Known-Correspondence)
-  - [5.2. EKF SLAM with Unknown Correspondence](#52-EKF-SLAM-with-Unknown-Correspondence)
+  - [5.1. test2](#51-test2)
+  - [5.2. test3](#52-test3)
 -----------------------------------------------------------------------------------------
 ## 2. Modelling
 **CoppeliaSim** [test](http://google.com).
@@ -44,7 +44,7 @@ Vision system needs calibration:
 * test
 * test
 
-
+-
 <p align = "center">
   <img src = "doc/Odometry.png" height = "360px" style="margin:10px 10px">
 </p>
@@ -72,13 +72,13 @@ test: **test**.
 </p>
 
 -----------------------------------------------------------------------------------------
-## 5. EKF SLAM
+## 5. Checklist
 test:
 * test
 * test
 * test
 
-### 5.1. EKF SLAM with Known Correspondence
+### 5.1. test2
 test: **test**.
 
 test
@@ -87,7 +87,7 @@ test
   <img src = "doc/EKF_SLAM_known_correspondences.gif" height = "360px" style="margin:10px 10px">
 </p>
 
-### 5.2. EKF SLAM with Unknown Correspondence
+### 5.2. test3
 test: **test**.
 
 test
