@@ -80,11 +80,11 @@ Fr and Fg can be used to construct the new force equation for ball displacement 
 </p>
 The angle displacements of the plate and motor can be written through trigonometric:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82179883-38939800-9894-11ea-9651-b8c4025f54bc.png" height = "200px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82179883-38939800-9894-11ea-9651-b8c4025f54bc.png" height = "50px" style="margin:10px 10px">
 </p>
 With small angle approximation and laplace transform, the transfer function is given below:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82179896-40ebd300-9894-11ea-869e-16d0343f55b0.png" height = "360px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82179896-40ebd300-9894-11ea-869e-16d0343f55b0.png" height = "50px" style="margin:10px 10px">
 </p>
 
 ### 3.2. Sensor Caibration
