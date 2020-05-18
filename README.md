@@ -14,14 +14,13 @@ test
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modelling)
-- [3. Basic Algorithm](#3-Basic-Algorithm)
-- [4. Controller Design and Simulations](#4-Controller-Design-and-Simulations)
-  - [4.1. test](#41-test)
-  - [4.2. test](#42-test)
-- [5. Checklist](#5-Checklist)
-  - [5.1. test2](#51-test2)
-  - [5.2. test3](#52-test3)
-- [6. References](#6-References)
+- [3. Controller Design and Simulations](#4-Controller-Design-and-Simulations)
+  - [3.1. Force Calculations](#41-Force Calculations)
+  - [3.2. test](#42-test)
+- [4. Checklist](#5-Checklist)
+  - [4.1. test2](#51-test2)
+  - [4.2. test3](#52-test3)
+- [5. References](#6-References)
   
 -----------------------------------------------------------------------------------------
 ## 2. Modelling
@@ -43,26 +42,14 @@ The data is processed in the following way:
 * test
 
 -----------------------------------------------------------------------------------------
-## 3. Sensor Calibration
-Vision system needs calibration:
-* I don't know if this is needed because there is no physical system
-* test
-
--
-
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
-</p>
-
------------------------------------------------------------------------------------------
-## 4. Controller Design and Simulations
+## 3. Controller Design and Simulations
 A controller was developed to balance the ball on the plate with the following specifications:
 * Settling time: Ts(s) ≤ 3.0
 * Percent Overshoot: %OS ≤ 10
 
 test
 
-### 4.1. Force Calculations
+### 3.1. Force Calculations
 To mathematically develop the proper equations to relate the necessary angle of lift on the balance plate (α) to the distance the ball has strayed away from the balance plate’s target location (x). Using the free body diagram below (Figure 1), forces from the ball’s inertia (Fr) and due to gravity on the ball (Fg) can be mapped out to determine the proper functions. 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82175334-886c6200-9888-11ea-8444-ffbccba078fc.png" height = "200px" style="margin:10px 10px">
@@ -92,15 +79,12 @@ Fr and Fg can be used to construct the new force equation for ball displacement 
   <img src = "https://user-images.githubusercontent.com/65521928/82177742-4b579e00-988f-11ea-8c1e-23167009eadd.png" height = "50px" style="margin:10px 10px">
 </p>
 
-### 4.2. Subheading Test 2
-test of second subheading: **test**.
-
-<p align = "center">
-  <img src = "insertimglinkhere" height = "360px" style="margin:10px 10px">
-</p>
+### 3.2. Sensor Caibration
+Code used to capture data from simulation to be sent to MATLAB is given below:
+`*CodeCam=sim.getObjectHandle("Vision_sensor")*`
 
 -----------------------------------------------------------------------------------------
-## 5. Checklist
+## 4. Checklist
 Deliverables:
 * Project Presentation
 * Webpage
@@ -109,7 +93,7 @@ Deliverables:
 * Test algorithms on the physical system
 
 -----------------------------------------------------------------------------------------
-## 6. References
+## 5. References
 
 [1] Subramanian, Raaja Ganapathy, et al. "Uniform ultimate bounded robust model reference adaptive
 PID control scheme for visual servoing." Journal of the Franklin Institute 354.4 (2017): 1741-1758.
