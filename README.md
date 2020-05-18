@@ -2,9 +2,9 @@
 #### Angel Mendoza, Chen Hung Yang, Jonathan Gomez, Marco Machuca, John Danley
 -----------------------------------------------------------------------------------------
 ## 1. Introduction
- **test** using **test2** dataset.
+ **Description of the project:**
 
-test
+Ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal of this project is to develop a solution to control the ball's position on theplate. 
 
 test
 
@@ -20,6 +20,7 @@ test
 - [5. Checklist](#5-Checklist)
   - [5.1. test2](#51-test2)
   - [5.2. test3](#52-test3)
+- [6. References](#6-References)
   
 -----------------------------------------------------------------------------------------
 ## 2. Modelling
@@ -74,15 +75,18 @@ test: **test**.
 
 -----------------------------------------------------------------------------------------
 ## 5. Checklist
-test:
-* test
-* test
-* test
+Deliverables:
+* Project Presentation
+* Webpage
+* Mathematical model of the system using MATLAB/Simulink
+* show that the algorithm facilitates the design requirements
+* Test algorithms on the physical system
+
 
 ### 5.1. test2
 test: **test**.
 
-test
+This is an example of how to do subheadings
 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
@@ -91,18 +95,20 @@ test
 ### 5.2. test3
 test: **test**.
 
-test
+This is an example of how to do multiple subheadings
 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "360px" style="margin:10px 10px">
 </p>
 
------------------------------------------------------------------------------------------
-## 6. Checklist
-test
 
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82173337-ac787500-9881-11ea-9ed6-5ecc7b0c784f.png" height = "600px" style="margin:10px 10px">
-</p>
+-----------------------------------------------------------------------------------------
+## 6. References
+
+[1] Subramanian, Raaja Ganapathy, et al. "Uniform ultimate bounded robust model reference adaptive
+PID control scheme for visual servoing." Journal of the Franklin Institute 354.4 (2017): 1741-1758.
+
+[2] Kildare, R., Hansen E., Leon, E., PID Control of Furuta Pendulum, Control System Design Project Fall
+2019
 
 -----------------------------------------------------------------------------------------
