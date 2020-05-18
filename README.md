@@ -24,12 +24,12 @@ test
 ## 2. Modelling
 **CoppeliaSim** [test](http://google.com).
 
-Each dataset contains five files:
-* **Odometry.dat**: Control data (translation and rotation velocity)
-* **Measurement.dat**: Measurement data (range and bearing data for visually observed landmarks and other robots)
-* **Groundtruth.dat**: Ground truth robot position (measured via Vicon motion capture – use for assessment only)
-* **Landmark_Groundtruth.dat**: Ground truth landmark positions (measured via Vicon motion capture)
-* **Barcodes.dat**: Associates the barcode IDs with landmark IDs.
+test:
+* **test**: test
+* **test**: test
+* **test**: test
+* **test**: test
+* **test**: Atest
 
 The data is processed in the following way:
 * test
@@ -73,10 +73,10 @@ test: **test**.
 
 -----------------------------------------------------------------------------------------
 ## 5. EKF SLAM
-EKF SLAM applies EKF to SLAM problem with the following features:
-* Feature-based map (landmarks)
-* Assume Gaussian noise for motion and measurement models
-* Maximum Likelihood data association
+test:
+* test
+* test
+* test
 
 ### 5.1. EKF SLAM with Known Correspondence
 Probabilistic Robotics Page 314: **Algorithm EKF_SLAM_known_correspondences**.
@@ -88,9 +88,9 @@ The overall process is not very smooth because of inaccurate odometry data and a
 </p>
 
 ### 5.2. EKF SLAM with Unknown Correspondence
-Probabilistic Robotics Page 321: **Algorithm EKF_SLAM**.
+test: **test**.
 
-The algorithm generates very similar estimate at the beginning compared with algorithm 5.1. However, with inaccurate odometry data, data association cannot work as expected and gives bad correspondences at the end, which degrades both landmark and robot state estimates.
+test
 
 <p align = "center">
   <img src = "doc/EKF_SLAM_unknown_correspondences.gif" height = "360px" style="margin:10px 10px">
