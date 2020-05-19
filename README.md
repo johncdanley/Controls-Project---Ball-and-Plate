@@ -37,7 +37,7 @@ An image of the virtual model produced in CoppeliaSim is shown below:
 A controller was developed to balance the ball on the plate with the following specifications:
 * Settling time: Ts(s) ≤ 3.0
 * Percent Overshoot: %OS ≤ 10
-</p>
+
 The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82270804-cc17a800-992a-11ea-8323-f520f54a101e.png" height = "auto" style="margin:auto">
