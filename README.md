@@ -23,7 +23,7 @@ test
   
 -----------------------------------------------------------------------------------------
 ## 2. Modeling
-The system is simulated in Coppelia Sim Edu utilizing a plate that is supported by two revolute joints on the individual sides that control the tilting mechanism for the balance of the ball. The control system described is to hold a freely rolling ball in a specific position on the plate using a senor for a feedback loop to maintain the position of the ball. For measuring the ball position, a camera sensor was used to provide feedback information.
+The system is simulated in Coppelia Sim Edu utilizing a plate that is supported by two revolute joints on the individual sides that control the tilting mechanism for the balance of the ball. The control system described is to hold a freely rolling ball in a specific position on the plate using a sensor for a feedback loop to maintain the position of the ball. For measuring the ball position, a camera sensor was used to provide feedback information. To simplify this system, it is modeled as two independent ball and beam systems. This is possible because the x and y positions are only going to be affected by their respective beam angles.
 
 The data is processed in the following way:
 * The camera observes the position of the ball in CoppeliaSim and sends the data to Matlab
@@ -45,7 +45,7 @@ The above specifications are used to determine the natural frequency value (ωn)
 ### 3.1. Force Calculations
 To mathematically develop the proper equations to relate the necessary angle of lift on the balance plate (α) to the distance the ball has strayed away from the balance plate’s target location (x). Using the free body diagram below (Figure 1), forces from the ball’s inertia (Fr) and due to gravity on the ball (Fg) can be mapped out to determine the proper functions. 
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82175334-886c6200-9888-11ea-8444-ffbccba078fc.png" height = "auto" style="margin:auto">
+  <img src = "https://user-images.githubusercontent.com/65521928/82277296-5a485a00-993c-11ea-8b9b-d5d16d4426e0.png" height = "auto" style="margin:auto">
 </p>
 The sum of forces can be written:
 <p align = "center">
