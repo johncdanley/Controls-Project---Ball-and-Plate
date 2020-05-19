@@ -105,7 +105,8 @@ Using the above parameters, the simplified transfer function relating input moto
 A camera is employed to control the PD controller. As the ball changes position, the sensor captures the movement and passes this information to the controller. Using the above transfer function, the controller powers the motors to position the plate accordingly. 
 The following parameters were determined to find the appropriate gains for the controller
 <p align = "center">
-Ts ≤ 3.0 s
+Ts ≤ 3.0 s  
+
 %OS ≤ 10
 </p>
 The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
@@ -115,7 +116,7 @@ The above specifications are used to determine the natural frequency value (ωn)
 
 ### 3.5. Coded Simulation
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "200px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "300px" style="margin:10px 10px">
 </p>
 
 
@@ -137,7 +138,7 @@ PID control scheme for visual servoing." Journal of the Franklin Institute 354.4
 [2] Kildare, R., Hansen E., Leon, E., PID Control of Furuta Pendulum, Control System Design Project Fall
 2019
 
-### Use this for inserting images into the middle of the document
+##### Use this for inserting images into the middle of the document
 <p align = "center">
   <img src = "img" height = "50px" style="margin:10px 10px">
 </p>
