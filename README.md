@@ -111,12 +111,12 @@ Ts ≤ 3.0 s
 </p>
 The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82270804-cc17a800-992a-11ea-8323-f520f54a101e.png" height = "250px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82270804-cc17a800-992a-11ea-8323-f520f54a101e.png" height = "auto" style="margin:10px 10px">
 </p>
 
 ### 3.5 Coded Simulation
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "300px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "auto" style="margin:10px 10px">
 </p>
 
 
