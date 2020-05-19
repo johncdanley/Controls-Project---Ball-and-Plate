@@ -15,11 +15,9 @@ test
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modeling)
 - [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)  
-    - [3.1. Force Calculations](#31-Force_Calculations)  
-    - [3.2. Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change_Transfer_Function)  
-    - [3.3. Motor Parameters](#33-Motor_Parameters_to_Refine_Transfer_Function)
-    - [3.4. System Parameters](#34-System_Parameters)
-    - [3.5. Coded Simulation](#35-Coded_Simulation)
+    - [3.2. Input Voltage to Position Change Transfer Function](#32-Input-Voltage-to-Position-Change-Transfer-Function)  
+    - [3.3. Motor Parameters](#33-Motor-Parameters-to-Refine-Transfer-Function)
+    - [3.4. Coded Simulation](#34-Coded-Simulation)
 - [4. Checklist](#4-Checklist)
 - [5. References](#5-References)
   
@@ -38,8 +36,11 @@ The data is processed in the following way:
 A controller was developed to balance the ball on the plate with the following specifications:
 * Settling time: Ts(s) ≤ 3.0
 * Percent Overshoot: %OS ≤ 10
-
-test
+</p>
+The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82270804-cc17a800-992a-11ea-8323-f520f54a101e.png" height = "auto" style="margin:auto">
+</p>
 
 ### 3.1. Force Calculations
 To mathematically develop the proper equations to relate the necessary angle of lift on the balance plate (α) to the distance the ball has strayed away from the balance plate’s target location (x). Using the free body diagram below (Figure 1), forces from the ball’s inertia (Fr) and due to gravity on the ball (Fg) can be mapped out to determine the proper functions. 
@@ -100,21 +101,8 @@ Using the above parameters, the simplified transfer function relating input moto
   <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "auto" style="margin:auto">
 </p>
 
-### 3.4 System Parameters 
 
-A camera is employed to control the PD controller. As the ball changes position, the sensor captures the movement and passes this information to the controller. Using the above transfer function, the controller powers the motors to position the plate accordingly. 
-The following parameters were determined to find the appropriate gains for the controller
-<p align = "center">
-Ts ≤ 3.0 s  
-
-%OS ≤ 10
-</p>
-The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
-<p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82270804-cc17a800-992a-11ea-8323-f520f54a101e.png" height = "auto" style="margin:auto">
-</p>
-
-### 3.5 Coded Simulation
+### 3.4 Coded Simulation
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "auto" style="margin:auto">
 </p>
