@@ -63,7 +63,7 @@ Using torque, an equation can be formed relating force of intertia to ball radiu
 The equation for the hollow ball inertia is given below: 
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82177723-3e3aaf00-988f-11ea-9f3a-0af57457e515.png" height = "auto" style="margin:auto">
-</p>-
+</p>
 By plugging the ball's inertia into inertial force (Fr) equation, the new equation is shown below:
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82177735-45fa5380-988f-11ea-8ed7-a186885a379d.png" height = "auto" style="margin:auto">
