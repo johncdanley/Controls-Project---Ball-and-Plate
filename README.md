@@ -80,7 +80,7 @@ With small angle approximation and laplace transform, the transfer function is g
 ### 3.2 Input Voltage to Position Change Transfer Function
 The block diagram below illustrates the in put of Vm(s) through the servo plant (SRVO2), outputting the servo angle (θ(s)), which in response, adjusts the position of the ball (X(S)) after going through the plant of the balance plate (Pbb(S)):
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "150px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "75px" style="margin:10px 10px">
 </p>
 
 ### 3.3 Parameters to Refine Transfer Function
@@ -95,12 +95,12 @@ Where:
 </p>
 Using the above parameters, the simplified transfer function relating input motor voltage to position change of the ball is given below:
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "75px" style="margin:10px 10px">
 </p>
 
 ### 3.4 Coded Simulation
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "200px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
