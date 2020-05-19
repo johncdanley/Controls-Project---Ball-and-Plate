@@ -14,9 +14,9 @@ test
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modeling)
-- [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)
-  - [3.1. Force Calculations](#31-Force_Calculations)
-  - [3.2. Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change-Transfer_Function)
+- [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)  
+  - [3.1. Force Calculations](#31-Force_Calculations)  
+  - [3.2. Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change-Transfer_Function)  
   - [3.3. Motor Parameters to Refine Transfer Function](#33-Motor_Parameters_to Refine_Transfer_Function)
   - [3.4. System Parameters](#34-System_Parameters)
   - [3.5. Coded Simulation](#35-Coded_Simulation)
