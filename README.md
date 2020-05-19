@@ -27,6 +27,10 @@ The data is processed in the following way:
 * Matlab recieves data from Coppelia
 * Simulink retrieves the data from the Matlab workspace and calculates the rotation of the motors, 
 
+An image of the virtual model produced in CoppeliaSim is shown below:
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82281582-8a94f600-9946-11ea-8ce7-e6c52afd22f8.png" height = "auto" style="margin:auto">
+</p>
 
 -----------------------------------------------------------------------------------------
 ## 3. Controller Design and Simulations
@@ -124,10 +128,5 @@ Deliverables:
 [3] Remote API Matlab functions, coppeliarobotics.com/helpFiles/en/remoteApiFunctionsMatlab.htm#simxAddStatusbarMessage
 
 [4] B0-based remote API, Matlab, https://www.coppeliarobotics.com/helpFiles/en/b0RemoteApi-matlab.htm 
-
-##### Use this for inserting images into the middle of the document
-<p align = "center">
-  <img src = "img" height = "auto" style="margin:auto">
-</p>
 
 -----------------------------------------------------------------------------------------
