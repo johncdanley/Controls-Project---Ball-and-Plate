@@ -120,11 +120,13 @@ Deliverables:
 -----------------------------------------------------------------------------------------
 ## 5. References
 
-[1] Subramanian, Raaja Ganapathy, et al. "Uniform ultimate bounded robust model reference adaptive
-PID control scheme for visual servoing." Journal of the Franklin Institute 354.4 (2017): 1741-1758.
+[1] Quanser Inc., 2 DOF Ball Balancer, https://www.quanser.com/products/2-dof-ball-balancer/
 
-[2] Kildare, R., Hansen E., Leon, E., PID Control of Furuta Pendulum, Control System Design Project Fall
-2019
+[2] Messner, B., Tilbury, D., et al., Control Tutorials for MATLAB & Simulink, http://ctms.engin.umich.edu/CTMS/index.php?aux=Home
+
+[3] Remote API Matlab functions, coppeliarobotics.com/helpFiles/en/remoteApiFunctionsMatlab.htm#simxAddStatusbarMessage
+
+[4] B0-based remote API, Matlab, https://www.coppeliarobotics.com/helpFiles/en/b0RemoteApi-matlab.htm 
 
 ##### Use this for inserting images into the middle of the document
 <p align = "center">
