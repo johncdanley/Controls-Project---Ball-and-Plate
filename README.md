@@ -113,7 +113,7 @@ Using the above parameters, the simplified transfer function relating input moto
 ## 4. Checklist
 Deliverables:
 * [Project Presentation](https://www.youtube.com/watch?v=zi2WvmNvmLM)
-* [Webpage](https://johncdanley.github.io/Controls-Project---Ball-and-Plate/#3-Controller-Design-and-Simulations)
+* [Webpage](https://johncdanley.github.io/Controls-Project---Ball-and-Plate/)
 * [Github](https://github.com/johncdanley/Controls-Project---Ball-and-Plate/blob/master/README.md)
 * Mathematical model of the system using MATLAB/Simulink
 * Show that the algorithm facilitates the design requirements
