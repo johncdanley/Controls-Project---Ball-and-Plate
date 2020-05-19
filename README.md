@@ -16,7 +16,8 @@ test
 - [2. Modeling](#2-Modeling)
 - [3. Controller Design and Simulations](#3-Controller-Design-and-Simulations)
   - [3.1. Force Calculations](#31-Force_Calculations)
-  - [3.2.Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change-Transfer_Function)
+  - [3.2. Input Voltage to Position Change Transfer Function](#32-Input_Voltage_to_Position_Change-Transfer_Function)
+  - [3.3. Parameters to Refine Transfer Function](#33-Parameters_to Refine_Transfer_Function)
 - [4. Checklist](#4-Checklist)
 - [5. References](#5-References)
   
@@ -77,21 +78,27 @@ With small angle approximation and laplace transform, the transfer function is g
 </p>
 
 ### 3.2 Input Voltage to Position Change Transfer Function
-The block diagram below illustrates the in put of Vm(s) through the servo plant (SRVO2),outputting the servo angle (θ(s)), which in ressponse, adjusts the position of the ball (X(S)) after going through the plant of the balance plate (Pbb(S)):
+The block diagram below illustrates the in put of Vm(s) through the servo plant (SRVO2), outputting the servo angle (θ(s)), which in response, adjusts the position of the ball (X(S)) after going through the plant of the balance plate (Pbb(S)):
 <p align = "center">
-  <img src = "https://user-images.githubusercontent.com/65521928/82267107-527abc80-9920-11ea-8eb3-ae398d9639c0.png" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "150px" style="margin:10px 10px">
 </p>
+
+### 3.3 Parameters to Refine Transfer Function
+
 Using a SRV02, after motor analysis accounting for the motor specifications, the motor's transfer function is given below:
 <p align = "center">
-  <img src = "img" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82267116-573f7080-9920-11ea-9f5a-a0bd27307374.png" height = "50px" style="margin:10px 10px">
 </p>
-
+Where: 
 <p align = "center">
-  <img src = "img" height = "50px" style="margin:10px 10px">
+  <img src = "https://user-images.githubusercontent.com/65521928/82267124-5c042480-9920-11ea-9d45-57eee2b533ca.png" height = "50px" style="margin:10px 10px">
+</p>
+Using the above parameters, the simplified transfer function relating input motor voltage to position change of the ball is given below:
+<p align = "center">
+  <img src = "https://user-images.githubusercontent.com/65521928/82269395-6d502f80-9926-11ea-90be-a226339a803f.png" height = "50px" style="margin:10px 10px">
 </p>
 
-
-### 3.2. Coded Simulation
+### 3.4 Coded Simulation
 <p align = "center">
   <img src = "https://user-images.githubusercontent.com/65521928/82269359-53aee800-9926-11ea-9e1f-07e72668d748.png" height = "50px" style="margin:10px 10px">
 </p>
@@ -116,7 +123,7 @@ PID control scheme for visual servoing." Journal of the Franklin Institute 354.4
 
 ### Use this for inserting images into the middle of the document
 <p align = "center">
-  <img src = "insertimglinkhere" height = "360px" style="margin:10px 10px">
+  <img src = "img" height = "50px" style="margin:10px 10px">
 </p>
 
 -----------------------------------------------------------------------------------------
