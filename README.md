@@ -7,10 +7,6 @@
 
 The ball and plate system consists of a tiltable plate controlled by two motors at perpendicular orientations with a ball positioned on the plate. The goal is to develop the Simulink model that controls the X and Y axis of the plate system in Coppelia Sim Edu.
 
-test
-
-test
-
 #### Table of Contents
 - [1. Introduction](#1-Introduction)
 - [2. Modeling](#2-Modeling)
