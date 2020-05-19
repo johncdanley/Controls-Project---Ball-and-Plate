@@ -35,7 +35,7 @@ An image of the virtual model produced in CoppeliaSim is shown below:
 -----------------------------------------------------------------------------------------
 ## 3. Controller Design and Simulations
 A controller was developed to balance the ball on the plate with the following specifications:
-* Settling time: Ts(s) ≤ 3.0
+* Settling time: Ts ≤ 3.0 (s)
 * Percent Overshoot: %OS ≤ 10
 
 The above specifications are used to determine the natural frequency value (ωn) whose equations ar shown below:
